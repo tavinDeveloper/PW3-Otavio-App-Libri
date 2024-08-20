@@ -5,7 +5,7 @@ const database = 'BD3-OTAVIO-AULA';
 const collection = 'Livraria';
 
 /* Cria ou acessa o Banco de Dados: */
-use (database)
+use (database);
 
 /* Criar uma coleçÃO de Dados: */
 db.createCollection (collection);

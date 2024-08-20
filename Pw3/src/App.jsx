@@ -16,7 +16,7 @@ function App() {
       imagem = {capa1}
       />
 
-{/* <CardBooks
+<CardBooks
       titulo='Os Cinquentas Tons de Cinza'
       autor='Prudence Edwart'
       imagem={capa2}
@@ -26,7 +26,7 @@ function App() {
       titulo='Meu Taxado Favorito'
       autor='Fernando Haddad'
       imagem={capa3}
-      /> */}
+      />
 
       
     </>
