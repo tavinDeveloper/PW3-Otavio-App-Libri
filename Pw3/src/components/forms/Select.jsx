@@ -4,8 +4,8 @@ function Select({ name, text, options }) {
     return (
 
         <div className={Style.form_control}>
-            <label htmlFor={name}>{name}</label>
-            <select name={name} id={name}>
+            <label htmlFor={name}>{text}</label>
+            <select name={name}>{name}
             <option>Selecione uma categoria:</option>
 
                 {
