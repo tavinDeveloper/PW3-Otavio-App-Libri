@@ -1,19 +1,14 @@
-
-.CardBooks {
+.cardBook{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     align-items: center;
-    width: max-content;
     border-radius: 5px;
+    width: max-content;
+    padding: 5px;
+    margin: 5px;
     background-color: #DEDEDE;
     border: 1px solid #CCC;
-    font-family: Helvetica;
-
-}
-
-img{
-    width: 200px;
-    border: 10px
+    font-family: Helvetica;   
 }
 
 .titulo{
@@ -22,4 +17,9 @@ img{
 
 .autor{
     font-size: 10px;
+}
+
+img{
+    width: 80px;
+    border-radius: 5px;
 }
